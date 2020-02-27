@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.dilshan.president.form"
+        android:background="@drawable/form_background"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/iform">
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/head_sinhala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="0.05"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center"
+            android:textSize="25dp"
+            android:textColor="@android:color/white" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/ref_no_sinhala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ref_number"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="@string/after_ref_sinhala"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                android:layout_marginLeft="50dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:id="@+id/editText_ref_number"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/discription_sinhala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="0.05"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/after_disc_sinhala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_weight="0.05"
+            android:layout_marginLeft="30dp"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:imeOptions="actionNext"
+
+            android:lines="3"
+            android:minLines="5"
+            android:maxLines="50"
+            android:ems="10"
+            android:id="@+id/editText_disc_sinhala"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/form_english_edittext"
+            android:gravity="top"
+            android:padding="12dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_detail_sinhala"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/para_sinhala"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textSize="10dp"
+
+            android:textColor="#f2f2f2"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:text="@string/name_sinhala"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtview_name"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:inputType="textPersonName"
+                android:text=""
+                android:ems="10"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:id="@+id/edittxt_name_sinhala"
+                android:background="@drawable/form_english_edittext"
+                android:imeOptions="actionNext"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:text="@string/address_sinhala"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/txtview_address"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:lines="3"
+                android:minLines="5"
+                android:maxLines="50"
+                android:text=""
+                android:ems="10"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:id="@+id/edittxt_address_sinhala"
+                android:background="@drawable/form_english_edittext"
+                android:padding="10dp"
+                android:imeOptions="actionNext"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:text="@string/telephone_sinhala"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/txtview_tele"
+                android:layout_marginLeft="50dp"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:inputType="phone"                android:text=""
+                android:ems="10"
+                android:id="@+id/edittxt_tele_sinhala"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/form_english_edittext"
+                android:imeOptions="actionNext"
+                android:maxLength="10"
+
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <TextView
+                android:text="@string/mobile_sinhala"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/txtview_mobile"
+                android:layout_marginLeft="50dp"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:inputType="phone"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/edittxt_mobile_sinhala"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/form_english_edittext"
+                android:imeOptions="actionNext"
+                android:maxLength="10"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/txtview_email"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/email_sinhala"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:inputType="textPersonName"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/edittxt_email_sinhala"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/form_english_edittext"
+                android:imeOptions="actionGo"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:text=" "
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtview_email2"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="save"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:id="@+id/save_sinhala"
+                android:background="@drawable/button_gradient_save"
+
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

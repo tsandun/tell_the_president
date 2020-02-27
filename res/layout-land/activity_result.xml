@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.menaka.tell_president.result"
+    android:background="@drawable/form_background"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/iform">
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/success_english"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ref_no_is_english"
+        android:textSize="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="30dp"
+        android:id="@+id/txt"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="@string/home_button_english"
+
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="15dp"
+        android:id="@+id/back"
+        android:background="@android:color/white"/>
+
+
+
+</LinearLayout>

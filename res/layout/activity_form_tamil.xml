@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.dilshan.president.form"
+        android:background="@drawable/form_background"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background="@drawable/iform">
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/head_tamil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="0.05"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center"
+            android:textSize="25dp"
+            android:textColor="@android:color/white" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/ref_no_tamil"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ref_number"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:text="@string/after_disc_tamil"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:id="@+id/editText_ref_number"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/discription_tamil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="0.05"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/after_disc_tamil_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_weight="0.05"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:ems="10"
+            android:id="@+id/editText_disc_tamil"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/form_english_edittext"
+            android:gravity="top"
+            android:padding="12dp"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:lines="3"
+            android:minLines="5"
+            android:maxLines="50"
+            android:imeOptions="actionNext"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_detail_tamil"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/para_tamil"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="10dp"
+
+            android:textColor="#f2f2f2"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:text="@string/name_tamil"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtview_name"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:inputType="textPersonName"
+                android:text=""
+                android:ems="10"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:id="@+id/edittxt_name_tamil"
+                android:layout_weight="0.03"
+                android:background="@drawable/form_english_edittext"
+                android:paddingLeft="10dp"
+                android:imeOptions="actionNext"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:text="@string/address_tamil"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtview_address"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+
+                android:textColor="@android:color/white"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:lines="3"
+                android:minLines="5"
+                android:maxLines="50"
+                android:text=""
+                android:ems="10"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:id="@+id/edittxt_address_tamil"
+                android:background="@drawable/form_english_edittext"
+                android:gravity="top"
+                android:imeOptions="actionNext"
+
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:text="@string/telephone_tamil"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtview_tele"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:inputType="phone"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/edittxt_tele_tamil"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/form_english_edittext"
+                android:paddingLeft="10dp"
+                android:imeOptions="actionNext"
+                android:maxLength="10"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:text="@string/mobile_tamil"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtview_mobile"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:inputType="phone"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/edittxt_mobile_tamil"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/form_english_edittext"
+                android:paddingLeft="10dp"
+                android:imeOptions="actionNext"
+                android:maxLength="10"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:text="@string/email_tamil"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtview_email"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:inputType="textPersonName"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/edittxt_email_tamil"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/form_english_edittext"
+                android:paddingLeft="10dp"
+                android:imeOptions="actionGo"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text=" "
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtview_email2"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="save"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:layout_marginRight="11dp"
+                android:id="@+id/save_tamil"
+                android:background="@drawable/button_gradient_save"
+
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

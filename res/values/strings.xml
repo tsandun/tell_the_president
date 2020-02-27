@@ -1,0 +1,69 @@
+<resources>
+    <string name="head_english">Detalis Form</string>
+    <string name="head_sinhala">විස්තර ආකෘතිය</string>
+    <string name="head_tamil">விவரங்கள் அமைக்க</string>
+
+    <string name="ref_no_english">Your referance number :</string>
+    <string name="ref_no_sinhala">දුක්ගැනවිලි අංකය : *********** </string>
+    <string name="ref_no_tamil">மனக்குறை இலக்கம் : *********** </string>
+
+    <string name="after_ref_sinhala">(ඉදිරිපත් කිරීමෙන් පසු දුක්ගැනවිලි අංකය දිස්වෙනු ඇත.)</string>
+    <string name="after_ref_tamil">(අකුරු 800 කට සීමාකරන්න.)</string>
+
+    <string name="discription_english">Grievance Discription  :</string>
+    <string name="discription_sinhala">දුක්ගැනවිල්ල :</string>
+    <string name="discription_tamil">Gமனக்குறை விளக்கம்:</string>
+
+    <string name="after_disc_english">( limit to a max of 800 characters ) </string>
+    <string name="personal_detail_english">Your Personal Details     :</string>
+    <string name="para_english">None of the following file are mandatary .if you want to receive feedback by SMS /email,you should supply  a valid mobile number ,email address in the relavant fields andn set the tik boxes ,otherwise clear the relavant tick boxes and leave the mobile number ,email address fields blank</string>
+    <string name="name_english">Name  :"</string>
+    <string name="address_english">Address :</string>
+    <string name="telephone_english">Tel.No  :</string>
+    <string name="mobile_english">Mobile No  :</string>
+    <string name="email_english">Email address :</string>
+
+    <string name="after_disc_sinhala">(අකුරු 800 කට සීමාකරන්න.)</string>
+    <string name="personal_detail_sinhala">ඔබගේ පෞද්ගලික තොරතුරු :</string>
+    <string name="para_sinhala">මෙහි සඳහන් කිසිදු තොරතුරක් අත්‍යාවශ්‍ය නොවේ. එහෙත්, ඔබට කෙටිපණිවිඩ හා විද්‍යුත් තැපෑල මගින් දැනුම්දීම් අවශ්‍යනම් පහත දැක්වෙන තොරතුරු ලබාදිය හැක. දැනුම්දීම් අවශ්‍ය ආකාරය (කෙටිපණිවිඩ/විද්‍යුත් තැපෑල ) ඔබටම තෝරාගත හැක.</string>
+    <string name="name_sinhala">නම:</string>
+    <string name="address_sinhala">ලිපිනය:</string>
+    <string name="telephone_sinhala">ස්ථාවර දුරකථනය:</string>
+    <string name="mobile_sinhala">ජංගම දුරකථනය:</string>
+    <string name="email_sinhala">විද්‍යුත් තැපැල් ලිපිනය:</string>
+
+    <string name="after_disc_tamil">(சமர்ப்பித்த்தன் பின்னர் மனக்குறை இலக்கம் இவ்வாறு காட்டப்படும்)</string>
+    <string name="after_disc_tamil_1">(800 எழுத்துக்களுக்கு மட்டுப்படுத்தவும்)</string>
+    <string name="personal_detail_tamil">உங்களின் தனிப்பட்ட தகவல்கள்:</string>
+    <string name="para_tamil">இங்கு கேட்கப்படும் அனைத்துத் தகவல்களும் கட்டாயமல்ல, ஆனாலும் உங்களுக்கு குறுஞ்செய்தி மற்றும் மின்னஞ்சல் மூலம் அறிவிக்க விரும்பினால் கீழ்க் குறிப்பிட்ட தகவல்களை சமர்ப்பிக்க முடியும். எவ் ஊடகத்தின் மூலம் அறிவிக்க வேண்டும் (குறுஞ்செய்தி/ மின்னஞ்சல்) என நீங்கள் தெரிவு செய்ய முடியும</string>
+    <string name="name_tamil">பெயர்:</string>
+    <string name="address_tamil">முகவரி:</string>
+    <string name="telephone_tamil">நிலையான தொலைபேசி:</string>
+    <string name="mobile_tamil">கையடக்கத் தொலைபேசி:</string>
+    <string name="email_tamil">மின்னஞ்சல்:</string>
+
+    <string name="log_button_sinhala">සිංහල</string>
+    <string name="log_button_english">English</string>
+    <string name="log_button_tamil">தமிழ்</string>
+
+    <string name="success_english">Successfully Send</string>
+    <string name="ref_no_is_english">Your Referance number is</string>
+    <string name="ref_val_english">20170344</string>
+    <string name="home_button_english">Back to Home</string>
+
+    <string name="success_sinhala">සාර්ථකව ඉදිරිපත් කරන ලදී</string>
+    <string name="ref_no_is_sinhala">ඔබේ Referance අංකය</string>
+    <string name="ref_val_sinhala">20170344</string>
+    <string name="home_button_sinhala">නැවත මුල් පිටුවට</string>
+
+
+    <string name="success_tamil">வெற்றிகரமாக அனுப்ப</string>
+    <string name="ref_no_is_tamil">உங்கள் Referance எண் </string>
+    <string name="ref_val_tamil">20170344</string>
+    <string name="home_button_tamil">Back to Home</string>
+
+
+    <string name="app_name">Tell the President</string>
+
+    <string name="nameerror">Enter a valid name</string>
+</resources>
